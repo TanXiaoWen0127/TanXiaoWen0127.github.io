@@ -1,0 +1,48 @@
+.box {
+    display: flex;
+}
+
+.box div {
+
+    flex: 1;
+}
+
+#word {
+    margin-right: 100px;
+    margin-left: -12px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border: 5px solid black;
+    padding-left: 150px;
+
+
+
+    text-align: center left;
+
+
+}
+
+#body {
+    margin: 0px;
+}
+
+#head {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 80px;
+    line-height: 1.2;
+}
+
+#content {
+
+    font-family: 'Noto Sans Warang Citi', sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#img {
+    background: url("../img/home1.png");
+    margin-right: 50px;
+    margin-top: -12px;
+}

@@ -2,7 +2,7 @@
     margin: 10px;
     border: 12px;
     padding: 25px;
-    background: url("/img/bg1.jpg");
+    background: url("../img/bg2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -12,6 +12,7 @@
     margin: 10px;
     border: 12px;
     padding: 25px;
-    background: url("/img/bg2.jpg");
+    background: url("../img/logo.jpg");
+    background-size: 100px 100px;
 
 }

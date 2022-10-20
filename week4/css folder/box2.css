@@ -1,0 +1,17 @@
+#eg1 {
+    margin: 10px;
+    border: 12px;
+    padding: 25px;
+    background: url("/img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#eg2 {
+    margin: 10px;
+    border: 12px;
+    padding: 25px;
+    background: url("/img/bg2.jpg");
+
+}

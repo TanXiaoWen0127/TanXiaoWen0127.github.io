@@ -1,0 +1,45 @@
+html,
+body,
+div {
+    height: 100%;
+}
+
+.box {
+    display: flex;
+}
+
+.box div {
+
+    flex: 1;
+}
+
+#body {
+    margin-left: 0px;
+}
+
+#img {
+    margin-top: 100px;
+    margin-left: -10px;
+
+    background-image: url("../img/home3.jpg");
+    background-size: 780px 600px;
+    background-repeat: no-repeat;
+
+}
+
+#word {
+    margin-top: 180px;
+    margin-bottom: 200px;
+    height: 400px;
+
+    padding: 0px;
+    border: 8px solid black;
+
+    text-align: center;
+}
+
+#head {
+
+    font-size: 20px;
+
+}

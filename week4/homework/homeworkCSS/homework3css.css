@@ -5,18 +5,17 @@
 }
 
 .box div {
-
     flex: 1;
+
 }
 
-
+body {
+    margin: 0;
+}
 
 #img {
 
     margin-top: 100px;
-    margin-left: -10px;
-
-    margin-bottom: 0px;
 
     background-image: url("../img/home3.jpg");
     background-size: 700px 550px;
@@ -25,32 +24,30 @@
 }
 
 .h1 {
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
+    width: 650px;
 }
 
 .h2 {
     font-family: 'Poppins', sans-serif;
+    width: 650px;
 }
 
 .p {
     font-family: 'Poppins', sans-serif;
+    width: 650px;
 }
 
 #word {
+
     margin: 10%;
-    margin-left: 100px;
+    margin-left: 0;
     margin-top: 150px;
-    margin-right: -8px;
-
-    padding-right: 50px;
-
-    height: 50%;
-    width: 50px;
+    margin-right: 0;
     border: 8px solid black;
+
     border-right: 0px;
 
-
     text-align: right;
-    font-size: 17px;
 }

@@ -1,0 +1,76 @@
+body,
+html,
+div {
+    height: 100%;
+}
+
+.box {
+    display: flex;
+}
+
+.box div {
+    flex-direction: row;
+    flex: 1;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+
+}
+
+#header {
+    border-right: 3px solid whitesmoke;
+    border-left: 3px solid whitesmoke;
+
+    height: 100%;
+
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.h {
+    height: 100px;
+    padding-top: 200px;
+}
+
+#h1 {
+    display: inline;
+    font-family: 'Montaga', serif;
+    font-weight: 50;
+
+
+}
+
+#h2 {
+    display: inline;
+    font-family: 'Montaga', serif;
+    font-weight: 50;
+    font-style: italic;
+}
+
+#h3 {
+    display: inline;
+    font-family: 'Montaga', serif;
+    font-weight: 50;
+
+}
+
+.p {
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+#img {
+    background-image: url("../img/home4.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    border-right: 3px solid whitesmoke;
+
+}

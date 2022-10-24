@@ -69,7 +69,10 @@ body {
 #img {
     background-image: url("../img/home4.png");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
+    background-size: 624px 760px;
+
+
 
     border-right: 3px solid whitesmoke;
 

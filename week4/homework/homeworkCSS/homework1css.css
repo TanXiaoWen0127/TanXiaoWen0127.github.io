@@ -13,7 +13,7 @@
     margin-top: 200px;
     margin-bottom: 200px;
     border: 5px solid black;
-    padding-left: 150px;
+    padding-left: 80px;
 
 
 
@@ -28,7 +28,7 @@
 
 #head {
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 45px;
     font-family: 'Secular One', sans-serif;
     font-size: 80px;
     line-height: 1.2;
@@ -38,10 +38,12 @@
 
     font-family: 'Noto Sans Warang Citi', sans-serif;
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #img {
     background: url("../img/furniture.jpg");
+    background-repeat: no-repeat;
+    background-size: 630px 700px;
     margin-top: -12px;
 }

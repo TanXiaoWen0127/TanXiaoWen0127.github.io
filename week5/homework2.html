@@ -10,18 +10,56 @@
 <body>
     <div id="container">
         <div class="header">
-            <img src="img/snakelogo.png" alt="Logo" height="100px">
-        </div>
-        <div>
-            <h2 id="phone">011-33725662</h2>
-            <div class="topnav">
-                <div id="link">
-                    <a herf="#">Link 1</a>
-                    <a herf="#">Link 2</a>
-                    <a herf="#">Link 3</a>
-                </div>
+            <img id="img" src="img/snakelogo.png" alt="Logo" height="100px">
+            <div>
+                <h2 id="phone">011-33725662</h2>
+                <div class="topnav">
+                    <div id="link">
+                        <a herf="#">Link 1</a>
+                        <a herf="#">Link 2</a>
+                        <a herf="#">Link 3</a>
+                    </div>
 
+                </div>
             </div>
+        </div>
+
+        <div class="slide">
+            <img class="mySlide" src="img/cameraman.jpg" alt="astronaunt" style="width: 100%" height="300px">
+            <img class="mySlide" src="img/fujimountain.jpg" alt="jellyfish" style="width: 100%" height="300px">
+            <img class="mySlide" src="img/nighttown.jpg" alt="jellyfish" style="width: 100%" height="300px">
+        </div>
+        <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlide");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > x.length) { slideIndex = 1 }
+                x[slideIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000);
+            }
+        </script>
+        <div class="row">
+            <div class="text">
+                <h2>This is text content</h2>
+                <p>This is the example of the text content</p>
+            </div>
+            <div class="sidebar">
+                <h3>Side Bar</h3>
+                <a herf="#">Button 1</a>
+                <a herf="#">Button 2</a>
+                <a herf="#">Button 3</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h1>This is a footer</h1>
         </div>
 
 

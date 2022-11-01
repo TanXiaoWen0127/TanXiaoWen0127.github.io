@@ -1,0 +1,108 @@
+#container {
+    background-color: #8308AF;
+    max-width: 1024px;
+    margin: auto;
+
+}
+
+.header {
+    background-color: #FEC60D;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 100px;
+    background-color: #8308AF;
+}
+
+#phone {
+    color: #8308AF;
+    height: 100px;
+}
+
+.topnav {
+    display: flex;
+    background-color: #FEC60D;
+    margin-top: 10px;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.topnav a {
+    color: #8308AF;
+    text-align: center;
+    padding: 14px 16px;
+    /*14px is top bottom, 16px is left right*/
+    text-decoration: none;
+
+}
+
+.topnav a:hover {
+    padding: 0;
+    background-color: #8308AF;
+    color: #FEC60D;
+
+}
+
+.mySlide {
+    display: none;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.feat {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.feat div {
+    width: 20%;
+    background-color: #FEC60D;
+    color: #8308AF;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    color: #FEC60D;
+    background-color: #8308AF;
+}
+
+.text {
+    margin-right: 25%;
+}
+
+.sidebar {
+    width: 25%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 5px solid #FEC60D;
+}
+
+.sidebar a {
+    color: #FEC60D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #FEC60D;
+    color: #8308AF;
+}
+
+.footer {
+    text-align: center;
+    color: #8308AF;
+    background-color: #FEC60D;
+    font-size: 10;
+}

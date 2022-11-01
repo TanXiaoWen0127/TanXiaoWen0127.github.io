@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>homework3</title>
+    <link rel="stylesheet" type="text/css" href="cssfolder/homework3css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <img id="logo" src="img/lakerslogo.png" alt="Logo">
+            <div id="phone">
+                <h2>011-33725662</h2>
+            </div>
+        </div>
+        <div class="topnav">
+            <div id="link">
+                <a herf="#">Link 1</a>
+                <a herf="#">Link 2</a>
+                <a herf="#">Link 3</a>
+            </div>
+        </div>
+        <div class="img">
+            <img class="mySlide" src="img/kobebryant.jpg" alt="camera man">
+            <img class="mySlide" src="img/lebronjames.jpg" alt="camera man">
+            <img class="mySlide" src="img/kobelebron.jpg" alt="camera man">
+        </div>
+        <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlide");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > x.length) { slideIndex = 1 }
+                x[slideIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000);
+            }
+        </script>
+        <div class="feat">
+            <div>
+                <h3>Most NBA Finals appearances</h3>
+                <h3>32 times</h3>
+            </div>
+            <div>
+                <h3>Most Playoff Games Won</h3>
+                <h3>421</h3>
+            </div>
+            <div>
+                <h3>Three Champions in a row</h3>
+                <h3>1999-2002</h3>
+            </div>
+            <div>
+                <h3>League Champion</h3>
+                <h3>32 times</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text">
+                <h2>This is Los Angeles Lakers</h2>
+                <p>The Los Angeles Lakers are an American professional basketball team <br>based in Los Angeles. The
+                    Lakers
+                    compete in the National Basketball<br> Association(NBA) as a member of the league's Western
+                    Conference Pacific Division. </p>
+            </div>
+            <div class="sidebar">
+                <h3>Menu</h3>
+                <a herf="#">Button 1</a>
+                <a herf="#">Button 2</a>
+                <a herf="#">Button 3</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h1>Los Angeles Lakers</h1>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="cssfolder/exercise2css.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="img/lakerslogo.png" alt="Logo" width="70px">
+        </div>
+        <div class="menu">
+            <a herf="#">History</a>
+            <a herf="#">Players</a>
+            <a herf="#">Jersey</a>
+        </div>
+        <div class="slideshow">
+            <img class="mySlide" src="../week5/img/kobebryant.jpg" alt="camera man" width="100%">
+            <img class="mySlide" src="../week5/img/kobelebron.jpg" alt="camera man" width="100%">
+            <img class="mySlide" src="../week5/img/lebronjames.jpg" alt="camera man" width="100%">
+        </div>
+        <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlide");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > x.length) { slideIndex = 1 }
+                x[slideIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000);
+            }
+        </script>
+        <div class="feat1">
+            <h3>Most NBA Finals appearances</h3>
+            <h3>32 times</h3>
+        </div>
+        <div class="feat2">
+            <h3>Most Playoff Games Won</h3>
+            <h3>421</h3>
+        </div>
+        <div class="feat3">
+            <h3>Three Champions in a row</h3>
+            <h3>1999-2002</h3>
+        </div>
+        <div class="sidebar">
+            <h3>Menu</h3>
+            <a herf="#">Button 1</a>
+            <a herf="#">Button 2</a>
+            <a herf="#">Button 3</a>
+        </div>
+        <div class="text">
+            <h2>This is Los Angeles Lakers</h2>
+            <p>The Los Angeles Lakers are an American professional basketball team <br>based in Los Angeles. The
+                Lakers
+                compete in the National Basketball<br> Association(NBA) as a member of the league's Western
+                Conference Pacific Division. </p>
+        </div>
+        <div class="footer">
+            <h1>Los Angeles Lakers</h1>
+        </div>
+
+    </div>
+</body>
+
+</html>

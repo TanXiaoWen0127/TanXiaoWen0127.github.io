@@ -179,8 +179,6 @@ body {
 #whobg {
     position: absolute;
     right: 0;
-
-    z-index: -1;
 }
 
 .container2 {
@@ -189,4 +187,152 @@ body {
     grid-template-areas:
         'image2 image2 image2 content2 content2 content2';
 
+}
+
+.content3 {
+    grid-area: content3;
+    margin-left: 140px;
+    color: #4D4B5E;
+}
+
+#whatbg3 {
+    position: absolute;
+    z-index: -1;
+}
+
+.process {
+    grid-area: process;
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 40px;
+    padding: 20px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    background-color: white;
+    box-shadow: 0px 5px 3px 3px #EEEDF9;
+}
+
+#processimg {
+    padding-left: 100px;
+}
+
+#p {
+    margin-bottom: 30px;
+}
+
+.button3 {
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+.rec3 {
+
+    height: 25px;
+    display: flex;
+    justify-content: right;
+}
+
+.seemore {
+    position: absolute;
+    top: 7px;
+    right: 30px;
+    color: white;
+    font-size: 10px;
+
+}
+
+#line5 {
+    color: blue;
+    font-size: 20px;
+}
+
+.socialmedia2 {
+    grid-area: socialmedia2;
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 3px 3px #EEEDF9;
+}
+
+#socialimg2 {
+    padding-left: 100px;
+}
+
+.gadget {
+    grid-area: gadget;
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 3px 3px #EEEDF9;
+}
+
+#gadgetimg {
+    padding-left: 100px;
+}
+
+.analysis {
+    grid-area: analysis;
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 40px;
+    margin-left: 60px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 3px 3px #EEEDF9;
+}
+
+#analysisimg {
+    padding-left: 100px;
+}
+
+.socialmedia {
+    grid-area: socialmedia;
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 3px 3px #EEEDF9;
+}
+
+#socialimg {
+    padding-left: 100px;
+}
+
+.computer {
+    grid-area: computer;
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 3px 3px #EEEDF9;
+}
+
+#computerimg {
+    padding-left: 100px;
+}
+
+.container3 {
+
+    display: grid;
+    grid-template-areas:
+        ' content3 content3 content3 content3 content3 content3'
+        'process process socialmedia2 socialmedia2 gadget gadget'
+        'analysis analysis socialmedia socialmedia computer computer';
+    gap: 30px;
+    padding: 50px;
 }

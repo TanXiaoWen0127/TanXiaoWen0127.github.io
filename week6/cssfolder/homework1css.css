@@ -35,17 +35,30 @@ body {
     padding: 15px;
 }
 
+.menu a:hover {
+    background-color: white;
+    color: blue;
+    border: none;
+}
+
 .sidebar {
     grid-area: sidebar;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-top: 300px;
     padding-left: 30px;
 }
 
 .sidebar a {
     padding: 20px;
+}
+
+.sidebar a:hover {
+    background-color: rgb(130, 184, 255);
+    border: none;
+    border-radius: 50%;
 }
 
 .sideicon {
@@ -68,25 +81,28 @@ body {
 .content {
     grid-area: content;
     padding-top: 100px;
-    line-height: 0.5;
+    line-height: 1.2;
     color: #4D4B5E;
 }
 
 #line1 {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
+    margin-bottom: 5px;
 }
 
-#line2 {
+.line2 {
     font-size: 65px;
     font-family: 'Arimo', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .line3 {
     font-family: 'Roboto', sans-serif;
 }
 
-.img {
+.image {
     grid-area: image;
     display: flex;
     justify-content: center;
@@ -100,7 +116,8 @@ body {
 .footer {
     grid-area: footer;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
 }
 
 #mouse {
@@ -120,12 +137,54 @@ body {
     grid-template-areas:
         'sidebar logo logo menu menu menu'
         'sidebar content content image image image'
-        'footer footer footer image image image';
+        'footer footer footer footer footer footer';
 }
 
+.image2 {
+    grid-area: image2;
+    margin-top: 50px;
+    padding-left: 50px;
+}
 
+.content2 {
+    grid-area: content2;
+    line-height: 1.5;
+    color: #4D4B5E;
+}
+
+#button2 {
+    position: relative;
+}
+
+#rec2 {
+    width: 150px;
+    height: 49px;
+}
+
+#see {
+    position: absolute;
+    bottom: 21px;
+    left: 37px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#line4 {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+
+#whobg {
+    position: absolute;
+    right: 0;
+
+    z-index: -1;
+}
 
 .container2 {
+    margin-top: 50px;
     display: grid;
     grid-template-areas:
         'image2 image2 image2 content2 content2 content2';

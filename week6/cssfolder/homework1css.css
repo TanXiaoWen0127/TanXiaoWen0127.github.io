@@ -2,13 +2,6 @@ body {
     margin: 0%;
 }
 
-#bgtop {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-}
-
 .logo {
     grid-area: logo;
     display: flex;
@@ -21,10 +14,15 @@ body {
     padding-left: 5px;
     margin-bottom: 0%;
     margin-top: 40px;
+    color: #4D4B5E;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu {
     grid-area: menu;
+    position: absolute;
+    top: 40px;
+    right: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,6 +61,11 @@ body {
 
 .sideicon {
     width: 13px;
+}
+
+#siderec {
+    height: 90px;
+    width: 4px;
 }
 
 #button1 {
@@ -109,7 +112,7 @@ body {
 }
 
 #phone {
-    height: 570px;
+    height: 480px;
 }
 
 
@@ -133,6 +136,11 @@ body {
 
 
 .container1 {
+    position: relative;
+    background-image: url("../img/bgtop.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 740px 540px;
     display: grid;
     grid-template-areas:
         'sidebar logo logo menu menu menu'
@@ -200,14 +208,26 @@ body {
     z-index: -1;
 }
 
+.services {
+    grid-area: services;
+}
+
+#row1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#row2 {
+    display: flex;
+    justify-content: space-around;
+}
+
 .process {
-    grid-area: process;
-    width: 300px;
-    height: 350px;
+    width: 280px;
+    height: 330px;
     border: none;
     border-radius: 40px;
     padding: 20px;
-    margin-left: 60px;
     margin-bottom: 100px;
     background-color: white;
     box-shadow: 0px 5px 3px 3px #EEEDF9;
@@ -236,7 +256,6 @@ body {
 }
 
 .rec3 {
-
     height: 25px;
     display: flex;
     justify-content: right;
@@ -257,9 +276,8 @@ body {
 }
 
 .socialmedia2 {
-    grid-area: socialmedia2;
-    width: 300px;
-    height: 350px;
+    width: 280px;
+    height: 330px;
     border: none;
     border-radius: 40px;
     margin-bottom: 100px;
@@ -273,9 +291,8 @@ body {
 }
 
 .gadget {
-    grid-area: gadget;
-    width: 300px;
-    height: 350px;
+    width: 280px;
+    height: 330px;
     border: none;
     border-radius: 40px;
     margin-bottom: 100px;
@@ -289,12 +306,10 @@ body {
 }
 
 .analysis {
-    grid-area: analysis;
-    width: 300px;
-    height: 350px;
+    width: 280px;
+    height: 330px;
     border: none;
     border-radius: 40px;
-    margin-left: 60px;
     padding: 20px;
     background-color: white;
     box-shadow: 0px 5px 3px 3px #EEEDF9;
@@ -305,9 +320,8 @@ body {
 }
 
 .socialmedia {
-    grid-area: socialmedia;
-    width: 300px;
-    height: 350px;
+    width: 280px;
+    height: 330px;
     border: none;
     border-radius: 40px;
     padding: 20px;
@@ -320,9 +334,8 @@ body {
 }
 
 .computer {
-    grid-area: computer;
-    width: 300px;
-    height: 350px;
+    width: 280px;
+    height: 330px;
     border: none;
     border-radius: 40px;
     padding: 20px;
@@ -335,14 +348,14 @@ body {
 }
 
 .container3 {
-
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: grid;
     grid-template-areas:
-        ' content3 content3 content3 content3 content3 content3'
-        'process process socialmedia2 socialmedia2 gadget gadget'
-        'analysis analysis socialmedia socialmedia computer computer';
+        'content3 content3 content3 content3 content3 content3'
+        'services services services services services services';
     gap: 30px;
-    padding: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .title {
@@ -356,12 +369,16 @@ body {
     color: #4D4B5E;
 }
 
+#packrow {
+    grid-area: packrow;
+    display: flex;
+    justify-content: space-around;
+}
+
 .pack1 {
-    grid-area: pack1;
     position: relative;
-    width: 300px;
-    height: 350px;
-    margin-left: 100px;
+    width: 280px;
+    height: 330px;
     border: none;
     border-radius: 40px;
     padding: 20px;
@@ -372,10 +389,9 @@ body {
 }
 
 .pack2 {
-    grid-area: pack2;
     position: relative;
-    width: 300px;
-    height: 350px;
+    width: 280px;
+    height: 330px;
     border: none;
     border-radius: 40px;
     padding: 20px;
@@ -385,10 +401,9 @@ body {
 }
 
 .pack3 {
-    grid-area: pack3;
     position: relative;
-    width: 300px;
-    height: 350px;
+    width: 280px;
+    height: 320px;
     border: none;
     border-radius: 40px;
     padding: 20px;
@@ -421,12 +436,13 @@ body {
 
 .container4 {
     background-color: #E8E3FE;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: grid;
     grid-template-areas:
         'title title title title title title'
         'header header header header header header'
-        'pack1 pack1 pack2 pack2 pack3 pack3';
+        'packrow packrow packrow packrow packrow packrow';
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -441,17 +457,59 @@ body {
 
 .subs {
     grid-area: subs;
+
 }
 
 .subs input[type=text] {
-    font-size: 10px;
+    font-size: 15px;
     border: 0px solid #ccc;
     padding: 10px 160px 10px 20px;
     border-radius: 5px;
     margin-right: 10px;
     background-color: #f6f7fb;
     box-shadow: 0 3px 5px 5px #f4f4fc;
-    opacity: 0.7;
+    opacity: 0.9;
+}
+
+.button5 {
+    background-image: url("../img/rectangle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    color: white;
+    font-size: 10px;
+    padding: 10px 20px;
+
+}
+
+.bottomfooter {
+    grid-area: bottomfooter;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column2 {
+    text-align: left;
+}
+
+.column3 {
+    text-align: left;
+}
+
+.column4 {
+    text-align: left;
+
 }
 
 
@@ -459,7 +517,13 @@ body {
     display: grid;
     grid-template-areas:
         'news news news news news news'
-        'subs subs subs subs subs subs';
+        'subs subs subs subs subs subs'
+        'bottomfooter bottomfooter bottomfooter bottomfooter bottomfooter bottomfooter';
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    background-image: url("../img/footerbg2.png"), url(../img/footerbg1.png);
+    background-repeat: no-repeat;
+    background-size: 2200px 2050px, 2906px 2000px;
+    background-position: 60% 23%, 90% 25%;
 }

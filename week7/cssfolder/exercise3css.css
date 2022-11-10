@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 30%;
+    background-color: #D9F9EF;
+    color: #3D7462;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.input {
+    background-color: white;
+    width: 180px;
+    height: 30px;
+    color: #3D7462;
+    margin: 5px;
+    border: 1px solid #D9F9EF;
+}
+
+.gender {
+    background-color: #E2FBF2;
+    color: #3D7462;
+}
+
+.country {
+    width: 188px;
+    height: 30px;
+    margin: 5px;
+    background-color: white;
+    color: #3D7462;
+}
+
+#send {
+    display: flex;
+    justify-content: center;
+}
+
+.sbutton {
+    border-radius: 40px;
+    border: 1px solid #3D7462;
+    background-color: #3D7462;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}

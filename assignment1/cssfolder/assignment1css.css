@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    background-color: #FFF8E5;
+}
+
+.header {
+    position: relative;
+    background-color: #FFF8E5;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#logo {
+    position: absolute;
+    width: 94px;
+    height: 104px;
+    top: 30px;
+}
+
+#name {
+    height: 55px;
+    font-family: 'Oldenburg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 30px;
+    color: #E05D5D;
+}
+
+#contact {
+    position: relative;
+    border: 2px solid #FC8019;
+    border-radius: 20px;
+    width: 160px;
+    height: 70px;
+    right: 57px;
+    top: 30px;
+}
+
+#contact a {
+    position: absolute;
+    height: 14px;
+    left: 31.89%;
+    right: 32.5%;
+    top: calc(50% - 14px/2 + 1.5px);
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FC8019;
+    text-decoration: none;
+}
+
+.menu {
+    background-color: #FC4F4F;
+    height: 100px;
+    left: 0px;
+    top: 148px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFF8E5;
+    font-family: 'Chenla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    background-color: #FFF8E5;
+    color: #FC8019;
+    border-radius: 20px;
+    padding: 15px 5px 15px 5px;
+}
+
+.intro {
+    background-color: #FFF8E5;
+    display: flex;
+    padding: 10px 0px 60px 20px;
+}
+
+#introduce {
+    padding-left: 40px;
+    align-items: center;
+}
+
+#intro1 {
+    margin: 20px 0px 0px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+#intro2 {
+    display: inline;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FC8019;
+}
+
+#introp {
+    margin-top: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#introimg {
+
+    width: 800px;
+    margin-left: 30px;
+}
+
+.travel {
+    background-color: #FC4F4F;
+    height: 80px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#traword {
+    color: #FFF8E5;
+    margin: 0;
+}
+
+.img {
+    height: 1080px;
+    background-image: url("../assignment1_img/swk2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#ppl1 {
+    background-color: #FFF8E5;
+    margin: 0;
+}
+
+.popular1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeimg {
+    border-radius: 100px;
+    width: 170px;
+    height: 170px;
+}
+
+.ppltitle {
+    margin-left: 50px;
+}
+
+#ppl2 {
+    background-color: #FFF8E5;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.popular2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #FFBC80;
+    width: 256px;
+    height: 430px;
+}
+
+.foodimg {
+    width: 256px;
+    height: 256px;
+    border-radius: 20px;
+}
+
+.foodp {
+    width: 256px;
+}

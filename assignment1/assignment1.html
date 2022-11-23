@@ -3,6 +3,8 @@
 
 <head>
     <title>Sarawak</title>
+    <script src="https://kit.fontawesome.com/6b6617017c.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cssfolder/assignment1css.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,13 +39,16 @@
                 <a href="#contact">contact</a>
             </div>
         </div>
-        <div class="menu">
+        <div class="menu" id="myMenu">
             <a href="#home">Home</a>
             <a href="#cities">Cities</a>
             <a href="#foods">Foods</a>
             <a href="#attractions">Attractions</a>
             <a href="#event">Event</a>
             <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa-solid fa-bars"></i>
+            </a>
         </div>
         <div class="intro">
             <div id="introduce">
@@ -72,27 +77,27 @@
             <div class="popular1">
                 <div class="place">
                     <img class="placeimg" src="assignment1_img/culvillage.jpg" alt="Culture Village">
-                    <p>Culture Village</p>
+                    <p class="placep">Culture Village</p>
                 </div>
                 <div class="place">
                     <img class="placeimg" src="assignment1_img/pinnacles.jpg" alt="The Pinnacles">
-                    <p>The Pinnacles<br>(Mulu National Park)</p>
+                    <p class="placep">The Pinnacles<br>(Mulu National Park)</p>
                 </div>
                 <div class="place">
                     <img class="placeimg" src="assignment1_img/bako.jpg" alt="Bako National Park">
-                    <p>Bako National Park</p>
+                    <p class="placep">Bako National Park</p>
                 </div>
                 <div class="place">
                     <img class="placeimg" src="assignment1_img/niah.jpg" alt="Niah National Park">
-                    <p>Niah National Park</p>
+                    <p class="placep">Niah National Park</p>
                 </div>
                 <div class="place">
                     <img class="placeimg" src="assignment1_img/semenggoh.jpg" alt="Semenggoh, Natural Reserve">
-                    <p>Semenggoh, Natural Reserve</p>
+                    <p class="placep">Semenggoh, Natural <br>Reserve</p>
                 </div>
                 <div class="place">
                     <img class="placeimg" src="assignment1_img/waterfront.jpg" alt="Kuching Waterfront">
-                    <p>Kuching Waterfront</p>
+                    <p class="placep">Kuching Waterfront</p>
                 </div>
             </div>
         </div>
@@ -101,26 +106,26 @@
             <div class="popular2">
                 <div class="food">
                     <img class="foodimg" src="assignment1_img/laksa.jpg" alt="Laksa">
-                    <h3>Sarawak Laksa</h3>
+                    <h3 class="foodh3">Sarawak Laksa</h3>
                     <p class="foodp">A noodle dish made up of vermicelli rice noodles soaked in a shrimp-based.</p>
                 </div>
                 <div class="food">
                     <img class="foodimg" src="assignment1_img/kolomee.jpg" alt="Kolo Mee">
-                    <h3>Sarawak Kolo Mee</h3>
+                    <h3 class="foodh3">Sarawak Kolo Mee</h3>
                     <p class="foodp">A dish of dry noodles tossed in a savoury pork and shallot mixture, topped off
                         with
                         fragrant fried onions.</p>
                 </div>
                 <div class="food">
                     <img class="foodimg" src="assignment1_img/keklapis.jpg" alt="Layer Cake">
-                    <h3>Sarawak Layer Cake</h3>
+                    <h3 class="foodh3">Sarawak Layer Cake</h3>
                     <p class="foodp">A layered and multi-color cake that invented by by Betawis people from Jakarta
                         to
                         Sarawak.</p>
                 </div>
                 <div class="food">
                     <img class="foodimg" src="assignment1_img/bamboochick.jpg" alt="Bamboo Chicken">
-                    <h3>Bamboo Chicken</h3>
+                    <h3 class="foodh3">Bamboo Chicken</h3>
                     <p class="foodp">A dish prepared by cooking chicken meat in a bamboo stalk always prepare by
                         Bidayus
                         and Ibans.</p>
@@ -151,6 +156,16 @@
                 <h2>Contact: 011-33725662</h2>
             </div>
         </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myMenu");
+                if (x.className === "menu") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "menu";
+                }
+            }
+        </script>
     </div>
 </body>
 

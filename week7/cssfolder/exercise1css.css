@@ -44,6 +44,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .menu.responsive {
+        position: relative;
+    }
 
     .topnav.responsive .icon {
         position: absolute;

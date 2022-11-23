@@ -165,6 +165,10 @@ body {
     flex-direction: column;
 }
 
+.place p {
+    text-align: center;
+}
+
 .placeimg {
     border-radius: 100px;
     width: 170px;

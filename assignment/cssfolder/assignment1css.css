@@ -20,10 +20,11 @@ body {
     position: absolute;
     width: 94px;
     height: 104px;
-    top: 30px;
+    top: 20px;
 }
 
 #name {
+
     height: 55px;
     font-family: 'Oldenburg';
     font-style: normal;
@@ -40,7 +41,7 @@ body {
     width: 160px;
     height: 70px;
     right: 57px;
-    top: 30px;
+    top: 25px;
 }
 
 #contact a {
@@ -74,7 +75,7 @@ body {
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 
@@ -105,7 +106,7 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 55px;
 }
 
 #intro2 {
@@ -113,13 +114,13 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 55px;
     color: #FC8019;
 }
 
 #introp {
     font-family: 'Open Sans';
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #introimg {
@@ -138,8 +139,13 @@ body {
 
 #traword {
     font-family: 'Open Sans';
+    font-size: 25px;
     color: #FFF8E5;
     margin: 0;
+}
+
+#img {
+    background-color: #a5d7d8;
 }
 
 .img {
@@ -147,6 +153,7 @@ body {
     background-image: url("../assignment1_img/swk2.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 }
 
 #ppl1 {
@@ -274,6 +281,11 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+
+    .menu {
+        position: relative;
+    }
+
     .menu a {
         display: none;
         font-size: 14px;
@@ -284,6 +296,12 @@ body {
         display: block;
 
     }
+
+    .menu .icon {
+        position: absolute;
+        left: 7%;
+        top: 45%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -293,9 +311,8 @@ body {
 
     .menu.responsive .icon {
 
-        position: absolute;
-        right: 0;
-        top: 0;
+        display: none;
+
     }
 
     .menu.responsive a {
@@ -311,6 +328,7 @@ body {
     #logo {
         width: 64px;
         height: 74px;
+        top: 10px;
     }
 
     #name {
@@ -320,10 +338,11 @@ body {
     #contact {
         width: 100px;
         height: 40px;
+        top: 18px;
     }
 
     #contact a {
-        font-size: 7px;
+        font-size: 10px;
     }
 
     #footmenu1 a {
@@ -437,7 +456,7 @@ body {
     #contact {
         width: 80px;
         height: 30px;
-        border-radius: 10px;
+
     }
 
     #contact a {
@@ -445,6 +464,7 @@ body {
     }
 
     #introimg {
+        margin: 0;
         width: 300px;
     }
 
@@ -488,6 +508,41 @@ body {
 
     #footcontact {
         font-size: 7px;
+    }
+
+}
+
+@media screen and (max-width:300px) {
+    #introimg {
+        width: 250px;
+    }
+
+    #introduce #intro1 {
+        font-size: 24px;
+    }
+
+    #introduce #intro2 {
+        font-size: 24px;
+    }
+
+    #introduce #introp {
+        font-size: 9px;
+    }
+
+    #contact {
+        right: 20px;
+        top: 10px;
+        width: 60px;
+        height: 30px;
+        border-radius: 6px;
+    }
+
+    .menu a {
+        font-size: 10px;
+    }
+
+    #footmenu1 a {
+        font-size: 5px;
     }
 
 }

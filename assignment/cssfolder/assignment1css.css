@@ -339,6 +339,7 @@ body {
         width: 100px;
         height: 40px;
         top: 18px;
+        border-radius: 10px;
     }
 
     #contact a {
@@ -456,11 +457,14 @@ body {
     #contact {
         width: 80px;
         height: 30px;
+        top: 13px;
+        right: 24px;
+        border-radius: 6px;
 
     }
 
     #contact a {
-        font-size: 4px;
+        font-size: 7px;
     }
 
     #introimg {
@@ -512,7 +516,7 @@ body {
 
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:350px) {
     #introimg {
         width: 250px;
     }
@@ -535,6 +539,11 @@ body {
         width: 60px;
         height: 30px;
         border-radius: 6px;
+    }
+
+    #contact a {
+        left: 25%;
+        right: 25%;
     }
 
     .menu a {

@@ -353,6 +353,10 @@ body {
         height: 60px;
     }
 
+    .menu a {
+        font-size: 11px;
+    }
+
     #footmenu1 a {
         margin: 10px;
     }
@@ -479,7 +483,7 @@ body {
     }
 
     .menu a {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     #introimg {
@@ -566,7 +570,7 @@ body {
     }
 
     .menu a {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     #footmenu1 a {

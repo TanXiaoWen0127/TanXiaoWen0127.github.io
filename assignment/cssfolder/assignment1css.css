@@ -180,7 +180,7 @@ body {
     border-radius: 100px;
     width: 170px;
     height: 170px;
-    box-shadow: 0px 3px 3px 3px #898787;
+    box-shadow: 0px 2px 2px 2px #9b9898;
 }
 
 .ppltitle {
@@ -205,7 +205,7 @@ body {
     align-items: flex-start;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 3px 3px 3px #898787;
+    box-shadow: 0px 2px 2px 2px #9b9898;
     padding: 25px;
     background-color: #FFBC80;
     width: 256px;
@@ -313,8 +313,9 @@ body {
 
     .menu.responsive .icon {
 
-        display: none;
-
+        position: absolute;
+        left: 6px;
+        top: 6px;
     }
 
     .menu.responsive a {
@@ -346,6 +347,10 @@ body {
 
     #contact a {
         font-size: 10px;
+    }
+
+    .menu {
+        height: 70px;
     }
 
     #footmenu1 a {
@@ -467,6 +472,10 @@ body {
 
     #contact a {
         font-size: 7px;
+    }
+
+    .menu {
+        height: 60px;
     }
 
     #introimg {

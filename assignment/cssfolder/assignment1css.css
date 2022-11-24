@@ -478,6 +478,10 @@ body {
         height: 60px;
     }
 
+    .menu a {
+        font-size: 12px;
+    }
+
     #introimg {
         margin: 0;
         width: 300px;
@@ -542,6 +546,10 @@ body {
 
     #introduce #introp {
         font-size: 9px;
+    }
+
+    #traword {
+        font-size: 13px;
     }
 
     #contact {

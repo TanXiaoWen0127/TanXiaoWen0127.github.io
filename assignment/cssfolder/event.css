@@ -251,3 +251,461 @@ button:hover {
     font-size: 10px;
     margin: 0;
 }
+
+@media screen and (max-width:1200px) {
+
+    .swkevent {
+        width: 700px;
+        margin: auto;
+    }
+
+    #kchfesimg {
+        width: 700px;
+    }
+
+    .imgbox {
+        width: 700px;
+    }
+
+    #kchfesimg1,
+    #kchfesimg2 {
+        width: 320px;
+    }
+
+    .title {
+        margin: 40px 0px;
+    }
+
+    .intro {
+        width: 700px;
+        padding-bottom: 30px;
+        line-height: 30px;
+    }
+
+    #rainforest {
+        text-align: center;
+    }
+
+    #rainforestimg,
+    #rainforestimg1 {
+        width: 700px;
+    }
+
+    #rainforestimg1 {
+        height: 600px;
+    }
+
+    #borneoimg {
+        width: 700px;
+    }
+
+    #borneoimg1,
+    #borneoimg2 {
+        width: 320px;
+    }
+
+    #gawaiimg1,
+    #gawaiimg2 {
+        width: 320px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #foot h1 {
+        font-size: 20px;
+    }
+
+    #footcontact {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .menu {
+        position: relative;
+    }
+
+    .menu a {
+        display: none;
+        font-size: 14px;
+    }
+
+    .menu a.icon {
+        float: left;
+        display: block;
+
+    }
+
+    .menu .icon {
+        position: absolute;
+        left: 7%;
+        top: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu.responsive {
+        position: relative;
+    }
+
+    .menu.responsive .icon {
+
+        position: absolute;
+        left: 6px;
+        top: 6px;
+    }
+
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    #logo {
+        width: 64px;
+        height: 74px;
+        top: 10px;
+    }
+
+    #name {
+        font-size: 34px;
+    }
+
+    #contact {
+        width: 100px;
+        height: 40px;
+        top: 18px;
+        border-radius: 10px;
+    }
+
+    #contact a {
+        font-size: 10px;
+    }
+
+    .menu {
+        height: 60px;
+    }
+
+    .menu a {
+        font-size: 11px;
+    }
+
+    .swkevent {
+        width: 550px;
+        margin: auto;
+    }
+
+    #kchfesimg {
+        width: 550px;
+    }
+
+    .imgbox {
+        width: 550px;
+    }
+
+    #kchfesimg1,
+    #kchfesimg2 {
+        width: 260px;
+    }
+
+    .title {
+        margin: 30px 0px;
+    }
+
+    .intro {
+        width: 550px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    #rainforest {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #rainforestimg,
+    #rainforestimg1 {
+        width: 550px;
+    }
+
+    #rainforestimg1 {
+        height: 480px;
+    }
+
+    #borneoimg {
+        width: 550px;
+    }
+
+    #borneoimg1,
+    #borneoimg2 {
+        width: 260px;
+    }
+
+    #gawaiimg1,
+    #gawaiimg2 {
+        width: 260px;
+    }
+
+    button {
+        width: 110px;
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+
+    #footmenu1 a {
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .swkevent {
+        width: 470px;
+        margin: auto;
+    }
+
+    #kchfesimg {
+        width: 470px;
+    }
+
+    .imgbox {
+        width: 470px;
+    }
+
+    #kchfesimg1,
+    #kchfesimg2 {
+        width: 230px;
+    }
+
+    .title {
+        margin: 25px 0px;
+    }
+
+    .intro {
+        width: 470px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    #rainforestimg,
+    #rainforestimg1 {
+        width: 470px;
+    }
+
+    #rainforestimg1 {
+        height: 400px;
+    }
+
+    #borneoimg {
+        width: 470px;
+    }
+
+    #borneoimg1,
+    #borneoimg2 {
+        width: 230px;
+    }
+
+    #gawaiimg1,
+    #gawaiimg2 {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    #logo {
+        width: 34px;
+        height: 44px;
+    }
+
+    #name {
+        font-size: 17px;
+    }
+
+    #contact {
+        width: 80px;
+        height: 30px;
+        top: 13px;
+        right: 24px;
+        border-radius: 6px;
+
+    }
+
+    #contact a {
+        font-size: 7px;
+    }
+
+    .menu {
+        height: 50px;
+    }
+
+    .menu a {
+        font-size: 10px;
+    }
+
+    #title {
+        width: 130px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .swkevent {
+        width: 360px;
+        margin: auto;
+    }
+
+    #kchfesimg {
+        width: 360px;
+    }
+
+    .imgbox {
+        width: 360px;
+    }
+
+    #kchfesimg1,
+    #kchfesimg2 {
+        width: 170px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+
+    .intro {
+        width: 360px;
+        line-height: 23px;
+    }
+
+    #rainforestimg,
+    #rainforestimg1 {
+        width: 360px;
+    }
+
+    #rainforestimg1 {
+        height: 300px;
+    }
+
+    #borneoimg {
+        width: 360px;
+    }
+
+    #borneoimg1,
+    #borneoimg2 {
+        width: 170px;
+    }
+
+    #gawaiimg1,
+    #gawaiimg2 {
+        width: 170px;
+    }
+
+    button {
+        width: 90px;
+        font-size: 10px;
+    }
+
+    #foot h1 {
+        font-size: 10px;
+    }
+
+    #footmenu1 a {
+        margin: 5px;
+    }
+
+    #footcontact {
+        font-size: 7px;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+
+    #contact {
+        right: 20px;
+        top: 10px;
+        width: 60px;
+        height: 30px;
+        border-radius: 6px;
+    }
+
+    #contact a {
+        left: 25%;
+        right: 25%;
+    }
+
+    .menu a {
+        font-size: 9px;
+    }
+
+    .swkevent {
+        width: 280px;
+        margin: auto;
+    }
+
+    #kchfesimg {
+        width: 280px;
+    }
+
+    .imgbox {
+        width: 280px;
+    }
+
+    #kchfesimg1,
+    #kchfesimg2 {
+        width: 130px;
+    }
+
+    .title {
+        font-size: 16px;
+        margin: 20px 0px;
+    }
+
+    .intro {
+        width: 280px;
+        line-height: 23px;
+    }
+
+    #rainforestimg,
+    #rainforestimg1 {
+        width: 280px;
+    }
+
+    #rainforestimg1 {
+        height: 240px;
+    }
+
+    #borneoimg {
+        width: 280px;
+    }
+
+    #borneoimg1,
+    #borneoimg2 {
+        width: 130px;
+    }
+
+    #gawaiimg1,
+    #gawaiimg2 {
+        width: 130px;
+    }
+
+    button {
+        width: 80px;
+        font-size: 9px;
+    }
+
+    #footmenu1 a {
+        font-size: 5px;
+    }
+
+}

@@ -135,8 +135,10 @@ body {
     margin-top: 15px;
 }
 
-.title {
+.eventtitle {
     margin: 40px 0px;
+    display: flex;
+    justify-content: center;
 }
 
 .intro {
@@ -272,7 +274,7 @@ button:hover {
         width: 320px;
     }
 
-    .title {
+    .eventtitle {
         margin: 40px 0px;
     }
 
@@ -417,7 +419,7 @@ button:hover {
         width: 260px;
     }
 
-    .title {
+    .eventtitle {
         margin: 30px 0px;
     }
 
@@ -487,7 +489,7 @@ button:hover {
         width: 230px;
     }
 
-    .title {
+    .eventtitle {
         margin: 25px 0px;
     }
 
@@ -554,7 +556,7 @@ button:hover {
     }
 
     #title {
-        width: 130px;
+        width: 60px;
         font-size: 15px;
         padding: 5px;
     }
@@ -577,7 +579,7 @@ button:hover {
         width: 170px;
     }
 
-    .title {
+    .eventtitle {
         font-size: 18px;
         margin: 20px 0px;
     }
@@ -666,7 +668,7 @@ button:hover {
         width: 130px;
     }
 
-    .title {
+    .eventtitle {
         font-size: 16px;
         margin: 20px 0px;
     }

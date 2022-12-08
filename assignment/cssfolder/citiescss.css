@@ -1,95 +1,3 @@
-body {
-    margin: 0;
-}
-
-.container {
-    position: relative;
-    background-color: #FFF8E5;
-}
-
-.header {
-    position: relative;
-    background-color: #FFF8E5;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding-left: 20px;
-}
-
-#logo {
-    position: absolute;
-    width: 94px;
-    height: 104px;
-    top: 20px;
-}
-
-#name {
-
-    height: 55px;
-    font-family: 'Oldenburg';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 30px;
-    color: #E05D5D;
-}
-
-#contact {
-    position: relative;
-    border: 2px solid #FC8019;
-    border-radius: 20px;
-    width: 160px;
-    height: 70px;
-    right: 57px;
-    top: 25px;
-}
-
-#contact a {
-    position: absolute;
-    height: 14px;
-    left: 31.89%;
-    right: 32.5%;
-    top: calc(50% - 14px/2 + 1.5px);
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FC8019;
-    text-decoration: none;
-}
-
-.menu {
-    background-color: #FC4F4F;
-    height: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #FFF8E5;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-
-.menu a:hover:not(.icon) {
-    background-color: #FFF8E5;
-    color: #FC8019;
-    border-radius: 20px;
-    padding: 15px 5px 15px 5px;
-}
-
-.menu .icon {
-    display: none;
-}
-
 .title {
     display: flex;
     justify-content: center;
@@ -158,132 +66,7 @@ body {
     padding-left: 20px;
 }
 
-.footer {
-    background-color: #FC4F4F;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #FFFFFF;
-    padding: 30px;
-    font-family: 'Poppins';
-}
-
-#footlogo {
-    width: 94px;
-    height: 104px;
-}
-
-#foot h1 {
-    margin: 0;
-}
-
-#footmenu1 a {
-    text-decoration: none;
-    color: #FFF8E5;
-    font-family: 'Chenla';
-    font-style: normal;
-    font-size: 10px;
-    text-transform: uppercase;
-    margin: 20px;
-    font-family: 'Poppins';
-}
-
-#footmenu2 {
-    margin-top: 30px;
-    text-align: center;
-}
-
-#footmenu2 a {
-    margin: 10px;
-}
-
-#footicon1 {
-    height: 20px;
-
-}
-
-#footicon2 {
-    height: 20px;
-
-}
-
-#footicon3 {
-    height: 20px;
-
-}
-
-#footcontact {
-    font-size: 10px;
-    margin: 0;
-}
-
-
 @media screen and (max-width: 800px) {
-
-    .menu {
-        position: relative;
-    }
-
-    .menu a {
-        display: none;
-        font-size: 14px;
-    }
-
-    .menu a.icon {
-        float: left;
-        display: block;
-
-    }
-
-    .menu .icon {
-        position: absolute;
-        left: 7%;
-        top: 45%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .menu.responsive {
-        position: relative;
-    }
-
-    .menu.responsive .icon {
-
-        position: absolute;
-        left: 6px;
-        top: 6px;
-    }
-
-    .menu.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-
-    }
-}
-
-@media screen and (max-width: 800px) {
-
-    #logo {
-        width: 64px;
-        height: 74px;
-        top: 10px;
-    }
-
-    #name {
-        font-size: 34px;
-    }
-
-    #contact {
-        width: 100px;
-        height: 40px;
-        top: 18px;
-        border-radius: 10px;
-    }
-
-    #contact a {
-        font-size: 10px;
-    }
 
     .row1 {
         flex-direction: column;
@@ -313,18 +96,6 @@ body {
         margin-bottom: 50px;
     }
 
-    .menu {
-        height: 60px;
-    }
-
-    .menu a {
-        font-size: 11px;
-    }
-
-    #footmenu1 a {
-        margin: 10px;
-    }
-
 }
 
 @media screen and (max-width:1200px) {
@@ -346,91 +117,18 @@ body {
         font-size: 15px;
         width: 250px;
     }
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #foot h1 {
-        font-size: 20px;
-    }
-
-    #footcontact {
-        font-size: 13px;
-    }
 }
 
 @media screen and (max-width:480px) {
-
-    #logo {
-        width: 34px;
-        height: 44px;
-    }
-
-    #name {
-        font-size: 17px;
-    }
-
-    #contact {
-        width: 80px;
-        height: 30px;
-        top: 13px;
-        right: 24px;
-        border-radius: 6px;
-
-    }
-
-    #contact a {
-        font-size: 7px;
-    }
-
-    .menu {
-        height: 50px;
-    }
-
-    .menu a {
-        font-size: 10px;
-    }
 
     #title {
         width: 150px;
         font-size: 15px;
         padding: 5px;
     }
-
-    #foot h1 {
-        font-size: 10px;
-    }
-
-    #footmenu1 a {
-        margin: 5px;
-    }
-
-    #footcontact {
-        font-size: 7px;
-    }
-
 }
 
 @media screen and (max-width:350px) {
-
-    #contact {
-        right: 20px;
-        top: 10px;
-        width: 60px;
-        height: 30px;
-        border-radius: 6px;
-    }
-
-    #contact a {
-        left: 25%;
-        right: 25%;
-    }
-
-    .menu a {
-        font-size: 9px;
-    }
 
     .city {
         width: 230px;
@@ -449,9 +147,4 @@ body {
         width: 200px;
         font-size: 13px;
     }
-
-    #footmenu1 a {
-        font-size: 5px;
-    }
-
 }

@@ -149,6 +149,10 @@ body {
     margin: 0;
 }
 
+#footcontact a {
+    color: #FFF8E5;
+}
+
 @media screen and (max-width:1200px) {
 
 

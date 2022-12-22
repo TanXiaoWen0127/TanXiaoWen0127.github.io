@@ -224,7 +224,7 @@ body {
 
 .process {
     width: 280px;
-    height: 330px;
+    height: 370px;
     border: none;
     border-radius: 40px;
     padding: 20px;
@@ -236,6 +236,7 @@ body {
 #processimg {
     padding-left: 100px;
 }
+
 
 #p {
     margin-bottom: 30px;
@@ -277,7 +278,7 @@ body {
 
 .socialmedia2 {
     width: 280px;
-    height: 330px;
+    height: 370px;
     border: none;
     border-radius: 40px;
     margin-bottom: 100px;
@@ -292,7 +293,7 @@ body {
 
 .gadget {
     width: 280px;
-    height: 330px;
+    height: 370px;
     border: none;
     border-radius: 40px;
     margin-bottom: 100px;
@@ -307,7 +308,7 @@ body {
 
 .analysis {
     width: 280px;
-    height: 330px;
+    height: 370px;
     border: none;
     border-radius: 40px;
     padding: 20px;
@@ -321,7 +322,7 @@ body {
 
 .socialmedia {
     width: 280px;
-    height: 330px;
+    height: 370px;
     border: none;
     border-radius: 40px;
     padding: 20px;
@@ -335,7 +336,7 @@ body {
 
 .computer {
     width: 280px;
-    height: 330px;
+    height: 370px;
     border: none;
     border-radius: 40px;
     padding: 20px;

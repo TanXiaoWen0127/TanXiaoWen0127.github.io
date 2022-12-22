@@ -24,6 +24,16 @@ body {
     border: 1px solid #D9F9EF;
 }
 
+.address {
+    background-color: white;
+    width: 380px;
+    height: 30px;
+    color: #3D7462;
+    margin: 5px;
+    border: 1px solid #D9F9EF;
+}
+
+
 .gender {
     background-color: #E2FBF2;
     color: #3D7462;

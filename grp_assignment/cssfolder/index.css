@@ -38,3 +38,10 @@
         height: 400px;
     }
 }
+
+@media screen and (max-width:500px) {
+    .trailer {
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,40 @@
+.date {
+    width: 250px;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.text {
+    width: 250px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.moviesimg {
+    box-shadow: 0px 6px 6px 0px #8a8383;
+}
+
+.moviesimg:hover {
+    width: 260px;
+}
+
+@media screen and (max-width:1100px) {
+    .trailer {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .trailer {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .trailer {
+        width: 480px;
+        height: 400px;
+    }
+}

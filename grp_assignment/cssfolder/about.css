@@ -1,0 +1,62 @@
+.about {
+    background-color: black;
+}
+
+.about p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.about h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.history h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.hissubtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+}
+
+@media screen and (max-width:1200px) {
+    .toptext p {
+        font-size: 20px;
+    }
+
+    .bottomtext p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .topimg {
+        width: 330px;
+    }
+
+    .toptext p {
+        margin-top: 20px;
+    }
+
+    .bottometext p {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .bottomimg {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .topabout {
+        flex-direction: column;
+    }
+
+    .bottomabout {
+        flex-direction: column-reverse;
+    }
+}

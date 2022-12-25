@@ -1,0 +1,34 @@
+.title {
+    font-family: 'Oswald', sans-serif;
+}
+
+.moviesmenu {
+    background-color: black;
+}
+
+.phaseimg {
+    width: 250px;
+}
+
+.date {
+    width: 250px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text {
+    width: 250px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.phasebtn a {
+    color: #FFFFFF;
+}
+
+.phasebtn a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.phaseimg:hover {
+    width: 260px;
+}

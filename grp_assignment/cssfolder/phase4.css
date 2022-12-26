@@ -1,0 +1,79 @@
+.title p,
+h1 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.img {
+    width: 200px;
+}
+
+.main {
+    font-family: 'Oswald', sans-serif;
+    width: 400px;
+}
+
+.actor,
+.description {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.actorname,
+.descriptiontext {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+.youtubebtn {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+@media screen and (max-width:1000px) {
+    iframe {
+        width: 450px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .movie {
+        flex-direction: column;
+    }
+
+    .accordionbtn {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    iframe {
+        width: 350px;
+        height: 300px;
+    }
+
+    .main {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    iframe {
+        width: 280px;
+        height: 280px;
+    }
+
+    .main {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    iframe {
+        width: 240px;
+        height: 240px;
+    }
+}

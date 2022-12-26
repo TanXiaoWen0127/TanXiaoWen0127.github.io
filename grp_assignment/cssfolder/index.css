@@ -45,3 +45,11 @@
         height: 300px;
     }
 }
+
+@media screen and (max-width:400px) {
+    .trailer {
+        margin: 0;
+        width: 260px;
+        height: 260px;
+    }
+}

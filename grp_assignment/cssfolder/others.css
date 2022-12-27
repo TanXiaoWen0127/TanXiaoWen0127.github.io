@@ -1,0 +1,22 @@
+.blank {
+    background-color: black;
+    height: 50px;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+}
+
+.date {
+    width: 250px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text {
+    width: 250px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.games {
+    background-color: black;
+}

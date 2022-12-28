@@ -8,6 +8,11 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.blank {
+    background-color: black;
+    height: 50px;
+}
+
 .title h1 {
     font-family: 'Oswald', sans-serif;
 }

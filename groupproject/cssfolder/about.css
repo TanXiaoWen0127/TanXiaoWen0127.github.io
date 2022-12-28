@@ -20,6 +20,33 @@
     font-size: 22px;
 }
 
+[data-bs-toggle="collapse"] i:before {
+    content: "\f068";
+    padding-right: 10px;
+}
+
+[data-bs-toggle="collapse"].collapsed i:before {
+    content: "\f067";
+    padding-right: 10px;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.accordion-text {
+    padding-left: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.accordion-item {
+    margin: 10px 0;
+}
+
 @media screen and (max-width:1200px) {
     .toptext p {
         font-size: 20px;
@@ -58,5 +85,17 @@
 
     .bottomabout {
         flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .toptext p,
+    .bottomtext p {
+        font-size: 18px;
+    }
+
+    .hissubtitle {
+        font-size: 18px;
     }
 }

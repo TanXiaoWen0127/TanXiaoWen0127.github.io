@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Timeline Phase 2</title>
+    <link rel="stylesheet" href="cssfolder/common.css">
+    <link rel="stylesheet" href="cssfolder/phase2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/6b6617017c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&amp;family=Roboto+Condensed&amp;display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/m_logo.png">
+</head>
+
+<body class="m-0">
+    <div class="container-fluid p-0">
+        <div class="header">
+            <div class="logo">
+                <img class="logoimg" src="img/logo.png" alt="Logo" width="150px">
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <div>
+                    <a href="timeline.html">Timeline</a>
+                    <a type="button" class="btn dropdown-toggle dropdown-toggle-split bg-light rounded-3 text-dark"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden ">Toggle Dropdown</span>
+                    </a>
+                    <ul class="dropdown-menu bg-dark ">
+                        <li><a class="dropdown-item" href="phase1.html">Phase One</a></li>
+                        <li><a class="dropdown-item bg-light rounded-3 text-dark" href="phase2.html">Phase Two</a></li>
+                        <li><a class="dropdown-item" href="phase3.html">Phase Three</a>
+                        </li>
+                        <li><a class="dropdown-item" href="phase4.html">Phase Four</a></li>
+                        <li><a class="dropdown-item" href="phase5.html">Phase Five</a></li>
+                        <li><a class="dropdown-item" href="phase6.html">Phase Six</a></li>
+                    </ul>
+                </div>
+                <a href="movies.html">Movies</a>
+                <a href="others.html">Others</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div class="title container my-4">
+            <p>The Infinity Saga</p>
+            <h1>Phase 2:</h1>
+        </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-6">
+                <div class="col mb-3" id="ironman3">
+                    <div class="card h-100 border-dark">
+                        <button type="button" class="btn btn-default" data-bs-toggle="modal"
+                            data-bs-target="#ironman3_modal">
+                            <img src="img/ironman3.jpg" class="card-img-top" alt="Iron Man 3">
+                        </button>
+                        <div class="modal fade" id="ironman3_modal" tabindex="-1" aria-labelledby="ironman3_modalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title" id="ironman3_modalLabel">Iron Man 3</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="movies-content modal-body">
+                                        <div class="content-1 d-flex justify-content-between">
+                                            <p><b>Director:</b> Shane Black</p>
+                                            <p>3 May 2013</p>
+                                        </div>
+                                        <b>Actor:</b>
+                                        <p class=" mb-0">Robert Downey, Jr. (Tony Stark/Iron Man)</p>
+                                        <p class=" mb-0">Gwyneth Paltrow (Pepper Potts/Virginia Potts)</p>
+                                        <p class=" mb-0">Don Cheadle (James Rhodes/Iron Patriot)</p>
+                                        <p class=" mb-0">Guy Pearce (Aldrich Killian)</p>
+                                        <p class=" mb-0">James Badge Dale (Eric Savin)</p>
+                                        <p>Jon Favreau (Happy Hogan)</p>
+
+                                        <p class=" mb-0"><b>Description:</b></p>
+                                        <p>Marvel's "Iron Man 3" pits brash-but-brilliant industrialist Tony Stark/Iron
+                                            Man against an enemy whose reach knows no bounds. When Stark finds his
+                                            personal
+                                            world destroyed at his enemy's hands, he embarks on a harrowing quest to
+                                            find those responsible. As he fights his way back, Stark discovers the
+                                            answer to
+                                            the question that has secretly haunted him: does the man make the suit or
+                                            does
+                                            the suit make the man.</p>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-dark" data-bs-target="#ironman3_ModalToggle"
+                                            data-bs-toggle="modal"><img src="img/youtube.png" alt="Youtube"
+                                                width="20px">&nbsp;Official Trailer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="ironman3_ModalToggle" aria-hidden="true"
+                        aria-labelledby="ironman3_ModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="ironman3_ModalToggleLabel">Official Trailer</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ke1Y3P9D0Bc"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-dark" data-bs-target="#ironman3_ModalToggle"
+                                        data-bs-toggle="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col mb-3" id="thor2">
+                    <div class="card h-100 border-dark">
+                        <button type="button" class="btn btn-default" data-bs-toggle="modal"
+                            data-bs-target="#thor2_modal">
+                            <img src="img/thor2.jpg" class="card-img-top" alt="Thor: The Dark World">
+                        </button>
+                        <div class="modal fade" id="thor2_modal" tabindex="-1" aria-labelledby="thor2_modalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title" id="thor2_modalLabel">Thor: The Dark World</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="movies-content modal-body">
+                                        <div class="content-1 d-flex justify-content-between">
+                                            <p><b>Director:</b> Alan Taylor</p>
+                                            <p>8 Nov 2013</p>
+                                        </div>
+                                        <b>Actor:</b>
+                                        <p class=" mb-0">Chris Hemsworth (Thor Odinson)</p>
+                                        <p class=" mb-0">Natalie Portman (Jane Foster)</p>
+                                        <p class=" mb-0">Tom Hiddleston (Loki Laufeyson)</p>
+                                        <p class=" mb-0">Anthony Hopkins (Odin)</p>
+                                        <p class=" mb-0">Idris Elba (Heimdall)</p>
+                                        <p class=" mb-0">Christopher Eccleston (Malekith)</p>
+                                        <p class=" mb-0">Zachary Levi (Fandral)</p>
+                                        <p>Rene Russo (Frigga)</p>
+
+                                        <p class=" mb-0"><b>Description:</b></p>
+                                        <p>In the aftermath of Marvel's "Thor" and "Marvel's The Avengers," Thor fights
+                                            to restore order across the cosmos...but an ancient race led by the vengeful
+                                            Malekith returns to plunge the universe back into darkness. Faced with an
+                                            enemy that even Odin and Asgard cannot withstand, Thor must embark on his
+                                            most perilous and personal journey yet, one that will reunite him with Jane
+                                            Foster and force him to sacrifice everything to save us all.
+                                        </p>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-dark" data-bs-target="#thor2_ModalToggle"
+                                            data-bs-toggle="modal"><img src="img/youtube.png" alt="Youtube"
+                                                width="20px">&nbsp;Official Trailer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="thor2_ModalToggle" aria-hidden="true"
+                        aria-labelledby="thor2_ModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="thor2_ModalToggleLabel">Official Trailer</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/npvJ9FTgZbM?start=6"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-dark" data-bs-target="#thor2_ModalToggle"
+                                        data-bs-toggle="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col mb-3" id="capamerica2">
+                    <div class="card h-100 border-dark">
+                        <button type="button" class="btn btn-default" data-bs-toggle="modal"
+                            data-bs-target="#capamerica2_modal">
+                            <img src="img/capamerica2.jpg" class="card-img-top"
+                                alt="Captain America: The Winter Soldier">
+                        </button>
+                        <div class="modal fade" id="capamerica2_modal" tabindex="-1"
+                            aria-labelledby="capamerica2_modalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title" id="capamerica2_modalLabel">Captain America: The
+                                            Winter Soldier
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="movies-content modal-body">
+                                        <div class="content-1 d-flex justify-content-between">
+                                            <p><b>Director:</b>Anthony Russo, Joe Russo</p>
+                                            <p>4 April 2014</p>
+                                        </div>
+                                        <b>Actor:</b>
+                                        <p class=" mb-0">Chris Evans (Steve Rogers/Captain America)</p>
+                                        <p class=" mb-0">Scarlett Johansson (Natasha Romanoff/Black Widow) </p>
+                                        <p class=" mb-0">Sebastian Stan (Bucky Barnes/Winter Soldier)</p>
+                                        <p class=" mb-0">Anthony Mackie (Sam Wilson/Falcon)</p>
+                                        <p class=" mb-0">Emily VanCamp (Sharon Carter)</p>
+                                        <p class=" mb-0">Toby Jones (Arnim Zola)</p>
+                                        <p class=" mb-0">Robert Redford (Alexander Pierce)</p>
+                                        <p>Samuel L. Jackson (Nick Fury)</p>
+
+
+                                        <p class=" mb-0"><b>Description:</b></p>
+                                        <p>After the catastrophic events in New York with the Avengers, Marvel's Captain
+                                            America lives peacefully in Washington, DC. A S.H.I.E.L.D.colleague is
+                                            attacked, and Steve is drawn into a web of conspiracy that threatens the
+                                            world. When the full extent of the evil plot is revealed, Captain America
+                                            and Black Widow enlist the help of their new ally, the Falcon. However, they
+                                            soon find themselves up against an unexpectedly powerful enemy - the Winter
+                                            Soldier.
+                                        </p>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-dark" data-bs-target="#capamerica2_ModalToggle"
+                                            data-bs-toggle="modal"><img src="img/youtube.png" alt="Youtube"
+                                                width="20px">&nbsp;Official Trailer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="capamerica2_ModalToggle" aria-hidden="true"
+                        aria-labelledby="capamerica2_ModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="capamerica2_ModalToggleLabel">Official Trailer</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7SlILk2WMTI"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-dark" data-bs-target="#capamerica2_ModalToggle"
+                                        data-bs-toggle="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col mb-3" id="guardians1">
+                    <div class="card h-100 border-dark">
+                        <button type="button" class="btn btn-default" data-bs-toggle="modal"
+                            data-bs-target="#guardians2_modal">
+                            <img src="img/guardians.jpg" class="card-img-top" alt="Guardians Of Galaxy Vol 2">
+
+                        </button>
+                        <div class="modal fade" id="guardians2_modal" tabindex="-1"
+                            aria-labelledby="guardians2_modalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title" id="guardians2_modalLabel">Guardians Of Galaxy
+
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="movies-content modal-body">
+                                        <div class="content-1 d-flex justify-content-between">
+                                            <p><b>Director:</b>James Gunn</p>
+                                            <p>1 Aug 2014</p>
+                                        </div>
+                                        <b>Actor:</b>
+                                        <p class=" mb-0">Chris Pratt (Peter Quill/Star-Lord)</p>
+                                        <p class=" mb-0">Zoe Saldana (Gamora)</p>
+                                        <p class=" mb-0">Dave Bautista (Drax the Destroyer)</p>
+                                        <p class=" mb-0">Vin Diesel (Groot)</p>
+                                        <p class=" mb-0">Bradley Cooper (Rocket Raccoon)</p>
+                                        <p class=" mb-0">Lee Pace (Ronan the Accuser)</p>
+                                        <p class=" mb-0">Michael Rooker (Yondu Udonta)</p>
+                                        <p>Karen Gillan (Nebula)</p>
+
+
+                                        <p class=" mb-0"><b>Description:</b></p>
+                                        <p>An action-packed, epic space adventure, Marvel's "Guardians of the Galaxy,"
+                                            expands the Marvel Cinematic Universe into the cosmos, where brash
+                                            adventurer Peter Quill finds himself the object of an unrelenting bounty
+                                            hunt after stealing a mysterious orb coveted by Ronan, a powerful villain
+                                            with ambitions that threaten the entire universe.
+                                        </p>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-dark" data-bs-target="#guardians2_ModalToggle"
+                                            data-bs-toggle="modal"><img src="img/youtube.png" alt="Youtube"
+                                                width="20px">&nbsp;Official Trailer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="guardians2_ModalToggle" aria-hidden="true"
+                        aria-labelledby="guardians2_ModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="guardians2_ModalToggleLabel">Official Trailer</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/d96cjJhvlMA"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-dark" data-bs-target="#guardians2_ModalToggle"
+                                        data-bs-toggle="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col mb-3" id="avengers2">
+                    <div class="card h-100 border-dark">
+                        <button type="button" class="btn btn-default" data-bs-toggle="modal"
+                            data-bs-target="#avengers2_modal">
+                            <img src="img/avengers2.jpg" class="card-img-top" alt="Avengers: Age Of Ultron">
+
+                        </button>
+                        <div class="modal fade" id="avengers2_modal" tabindex="-1"
+                            aria-labelledby="avengers2_modalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title" id="avengers2_modalLabel">Avengers: Age Of Ultron
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="movies-content modal-body">
+                                        <div class="content-1 d-flex justify-content-between">
+                                            <p><b>Director:</b>James Gunn</p>
+                                            <p>1 May 2015</p>
+                                        </div>
+                                        <b>Actor:</b>
+                                        <p class=" mb-0">Robert Downey, Jr. (Tony Stark/Iron Man)</p>
+                                        <p class=" mb-0">Chris Hemsworth (Thor Odinson)</p>
+                                        <p class=" mb-0">Mark Ruffalo (Bruce Banner/Hulk)</p>
+                                        <p class=" mb-0">Chris Evans (Steve Rogers/Captain America)</p>
+                                        <p class=" mb-0"> Scarlett Johansson (Natasha Romanoff/Black Widow)</p>
+                                        <p class=" mb-0">Jeremy Renner as (Clint Barton/Hawkeye)</p>
+                                        <p class=" mb-0">Aaron Taylor-Johnson (Pietro Maximoff/Quicksilver) </p>
+                                        <p class=" mb-0">Elizabeth Olsen (Wanda Maximoff/Scarlet Witch)</p>
+                                        <p class=" mb-0">Paul Bettany (Vision)</p>
+                                        <p class=" mb-0">James Spader (Ultron)</p>
+                                        <p> Samuel L. Jackson (Nick Fury)</p>
+
+
+                                        <p class=" mb-0"><b>Description:</b></p>
+                                        <p>Marvel Studios presents "Avengers: Age of Ultron," the epic sequel to the
+                                            greatest superhero movie of all time. When Tony Stark tries to start a
+                                            dormant peacekeeping program, things go awry and Earth's Mightiest
+                                            Heroes,
+                                            including Iron Man, Captain America, Thor, Hulk, Black Widow, and
+                                            Hawkeye,
+                                            are all faced with a The ultimate test as the fate of Earth hangs in the
+                                            balance.
+                                        </p>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-dark" data-bs-target="#avengers2_ModalToggle"
+                                            data-bs-toggle="modal"><img src="img/youtube.png" alt="Youtube"
+                                                width="20px">&nbsp;Official Trailer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="avengers2_ModalToggle" aria-hidden="true"
+                        aria-labelledby="avengers2_ModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title" id="avengers2_ModalToggleLabel">Official Trailer
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tmeOjFno6Do"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-dark" data-bs-target="#avengers2_ModalToggle"
+                                        data-bs-toggle="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col mb-3" id="antman1">
+                    <div class="card h-100 border-dark">
+                        <button type="button" class="btn btn-default" data-bs-toggle="modal"
+                            data-bs-target="#antman_modal">
+                            <img src="img/antman.jpg" class="card-img-top" alt="Ant Man">
+                        </button>
+                        <div class="modal fade" id="antman_modal" tabindex="-1" aria-labelledby="antman_modalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title" id="antman_modalLabel">Ant Man
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="movies-content modal-body">
+                                        <div class="content-1 d-flex justify-content-between">
+                                            <p><b>Director:</b>Peyton Reed</p>
+                                            <p>17 Jul 2015</p>
+                                        </div>
+                                        <b>Actor:</b>
+                                        <p class=" mb-0">Paul Rudd (Scott Lang/Ant-Man)</p>
+                                        <p class=" mb-0">Evangeline Lilly (Hope van Dyne)</p>
+                                        <p class=" mb-0">Mark Ruffalo (Bruce Banner/Hulk)</p>
+                                        <p class=" mb-0">Corey Stoll (Darren Cross/Yellowjacket)</p>
+                                        <p class=" mb-0">Bobby Cannavale (Jim Paxton)</p>
+                                        <p class=" mb-0">Michael Peña as Luis, T.I. (Dave)</p>
+                                        <p>Michael Douglas (Hank Pym)</p>
+
+
+                                        <p class=" mb-0"><b>Description:</b></p>
+                                        <p>The next evolution of the Marvel Cinematic Universe brings a founding
+                                            member
+                                            of The Avengers to the big screen for the first time with Marvel
+                                            Studios'
+                                            "Ant-Man." Armed with the astonishing ability to shrink in scale but
+                                            increase in strength, master thief Scott Lang must embrace his
+                                            inner-hero
+                                            and help his mentor, Doctor Hank Pym, protect the secret behind his
+                                            spectacular Ant-Man suit from a new generation of towering threats.
+
+                                        </p>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-dark" data-bs-target="#antman_ModalToggle"
+                                            data-bs-toggle="modal"><img src="img/youtube.png" alt="Youtube"
+                                                width="20px">&nbsp;Official Trailer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="antman_ModalToggle" aria-hidden="true"
+                        aria-labelledby="antman_ModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="antman_ModalToggleLabel">Official Trailer
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pWdKf3MneyI"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-dark" data-bs-target="#antman_ModalToggle"
+                                        data-bs-toggle="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer py-4">
+            <div id="foot">
+                <img id="footlogo" src="img/logo.png" alt="Logo" width="200px">
+            </div>
+            <div class="footmenu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="timeline.html">Timeline</a>
+                <a href="movies.html">Movies</a>
+                <a href="others.html">Others</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="social text-center">
+                <h3>Follow Marvel</h3>
+                <a href="https://www.facebook.com/Marvel/" target="_new"><img class="footicon" src="img/fblogo2.png"
+                        alt="facebook"></a>
+                <a href="https://www.instagram.com/marvel/?hl=en" target="_new"><img class="footicon"
+                        src="img/iglogo2.png" alt="instagram"></a>
+                <a href="https://twitter.com/Marvel?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                    target="_new"><img class="footicon" src="img/twitter2.png" alt="twitter"></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

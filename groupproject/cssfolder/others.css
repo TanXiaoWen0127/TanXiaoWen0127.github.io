@@ -17,8 +17,16 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.comicimg:hover {
+    width: 260px;
+}
+
 .games {
     background-color: black;
+}
+
+.gamesimg:hover {
+    width: 260px;
 }
 
 .gallerybutton {
@@ -27,14 +35,9 @@
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     min-width: 80px;
+    text-decoration: none;
 }
 
-.accordion-button::before {
-    display: none;
-
-}
-
-.accordion-button::after {
-    display: none;
-    border: none;
+.gallerybutton p:hover {
+    color: rgb(196, 32, 32);
 }

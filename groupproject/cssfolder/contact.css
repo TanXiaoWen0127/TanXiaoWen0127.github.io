@@ -1,0 +1,13 @@
+.contact-left {
+    background-image: url("../img/marvel_contact.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    color: black;
+}
+
+.mail {
+    color: rgb(0, 0, 120);
+}

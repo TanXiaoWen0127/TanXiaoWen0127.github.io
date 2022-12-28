@@ -6,6 +6,7 @@
 
 .movie {
     box-shadow: 5px 5px 0px 0px #c4c0c0;
+    border-radius: 10px;
 }
 
 .img {

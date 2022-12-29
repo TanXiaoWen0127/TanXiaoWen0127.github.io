@@ -1,14 +1,11 @@
 .title {
     font-family: 'Oswald', sans-serif;
+    margin-left: 40px;
 }
 
 .blank {
     background-color: black;
     height: 50px;
-}
-
-.moviesmenu {
-    background-color: black;
 }
 
 .phaseimg {
@@ -25,20 +22,29 @@
     font-family: 'Oswald', sans-serif;
 }
 
-.phasebtn a {
-    color: #FFFFFF;
-}
-
-.phasebtn p {
-    font-family: 'Oswald', sans-serif;
-    margin: 0;
-}
-
-.phasebtn a:hover {
-    background-color: #FFFFFF;
-    color: #000000;
-}
-
 .phaseimg:hover {
     width: 260px;
+}
+
+.phasebutton {
+    border: none;
+    background-color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    min-width: 80px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:770px) {
+    .title {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .moviesmenu {
+        flex-direction: column;
+
+    }
 }

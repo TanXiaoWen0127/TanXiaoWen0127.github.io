@@ -17,6 +17,9 @@
     width: 400px;
 }
 
+.accordion-button:not(.collapsed)::after {
+    transform: none;
+}
 
 
 .actor,

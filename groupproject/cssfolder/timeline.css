@@ -2,14 +2,7 @@
     background-color: black;
 }
 
-.timeline a {
-    text-decoration: none;
-    color: black;
-}
 
-.timeline a:hover {
-    color: white;
-}
 
 .title h1 {
     font-family: 'Oswald', sans-serif;

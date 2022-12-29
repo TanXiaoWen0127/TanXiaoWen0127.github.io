@@ -67,6 +67,10 @@
     border: 3px solid #eee;
 }
 
+.phase a {
+    text-decoration: none;
+}
+
 @media screen and (max-width:750px) {
     .main-timeline .phase-content {
         font-size: 18px;

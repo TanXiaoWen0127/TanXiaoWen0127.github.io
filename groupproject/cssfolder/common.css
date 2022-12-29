@@ -6,6 +6,7 @@
 .topnav {
     overflow: hidden;
     background-color: #000000;
+    color: #FFFFFF;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -29,6 +30,9 @@
     display: none;
 }
 
+.dropdownbtn a {
+    border: none;
+}
 
 .footer {
     background-color: #000000;

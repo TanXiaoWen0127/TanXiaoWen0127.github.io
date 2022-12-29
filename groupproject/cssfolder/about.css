@@ -72,9 +72,9 @@ h5 {
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:840px) {
     .bottomimg {
-        width: 300px;
+        width: 280px;
     }
 }
 

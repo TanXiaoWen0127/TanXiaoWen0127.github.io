@@ -13,11 +13,14 @@
     box-shadow: 5px 5px 0px 0px #c4c0c0;
 }
 
+
 @media screen and (max-width: 770px) {
     .actor {
         flex-direction: column;
     }
 }
+
+
 
 .actor.text {
     font-family: 'Roboto', sans-serif;
